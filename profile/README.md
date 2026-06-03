@@ -50,7 +50,7 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 - **Backend:** Python (containerized, because vampires love microservices ;P)
 - **Frontend:** ReactJS + TailwindCSS (Lumi doesn't understand it. But it works.)
-- **Database:** SQLite3 (with stranger tables than coffings in Lumi's castle)
+- **Database:** SQLite3 (with stranger tables than coffins in Lumi's castle)
 - **Infra:** Self-hosted, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure...)
 
 ---
