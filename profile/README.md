@@ -22,7 +22,7 @@ A clean, fast, self-built platform where the blood (code) and soul (anime) flow 
 
 **Lumi** (full name: *Luminas Crimsonveil*) is the immortal, cute, and slightly mischievous vampire queen who watches over Crimson Haven.
 
-- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long black hair with blood-red undertones. Always wearing a tiny velvet cape and a silver choker.
+- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long crimson hair with violet undertones. Always wearing a tiny velvet.
 - **Personality** — Regal but playful. She’ll judge your taste in isekai, but then recommend three hidden gems. She loves moonlit code reviews and drinks `#8B0000` tea.
 - **Catchphrase** — *"Don’t worry, I only bite lag and broken subtitles."*
 - **Why a vampire queen?** — Because Crimson Haven isn’t just another streaming site. It’s *her* domain. Elegant, dark, and surprisingly warm.
