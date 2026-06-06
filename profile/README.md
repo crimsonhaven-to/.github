@@ -42,7 +42,7 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 - [x] Anime metadata scraper (~~ethically sourced~~ (Lumi doesn't talk about that ＞︿＜))
 - [ ] Video player with memory of your last episode
 - [ ] User lists (“Lumi’s Favorites”)
-- [ ] Mobile-first vampire theme
+- [x] Mobile-~~first~~ optimized vampire theme
 
 ---
 
