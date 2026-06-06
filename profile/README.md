@@ -7,7 +7,7 @@
 ## About Us
 
 We’re not a team.  
-We’re just **a guy** who loves **System Engineering** and doing unconventional things.
+We’re just **a bunch of people** who love **System Engineering** and doing unconventional things.
 
 No corporate nonsense. No bloat. Just raw engineering, late-night commits, and the belief that watching anime should feel like home — a *crimson* home.
 
