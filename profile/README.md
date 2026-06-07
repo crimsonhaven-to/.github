@@ -22,14 +22,14 @@ A clean, fast, self-built platform where the blood (code) and soul (anime) flow 
 
 **Lumi** (full name: *Luminas Crimsonveil*) is the immortal, cute, and slightly mischievous vampire queen who watches over Crimson Haven.
 
-- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long crimson hair with violet undertones. Always wearing a tiny velvet.
+- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long crimson hair with violet undertones. Always wearing a velvel cape.
 - **Personality** — Regal but playful. She’ll judge your taste in isekai, but then recommend three hidden gems. She loves moonlit code reviews and drinks `#8B0000` tea.
 - **Catchphrase** — *"Don’t worry, I only bite lag and broken subtitles."*
 - **Why a vampire queen?** — Because Crimson Haven isn’t just another streaming site. It’s *her* domain. Elegant, dark, and surprisingly warm.
 
 You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sarcastic comments in the console logs.
 
-![Lumi!](../assets/images/nobackgroundmascot.png)
+![Lumi!](./assets/images/nobackgroundmascot.png)
 
 ---
 
@@ -50,8 +50,8 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 - **Backend:** Python (containerized, because vampires love microservices ;P)
 - **Frontend:** ReactJS + TailwindCSS (Lumi doesn't understand it. But it works.)
-- **Database:** SQLite3 (with stranger tables than coffins in Lumi's castle)
-- **Infra:** Self-hosted, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure...)
+- **Database:** Now a managed, external database! 
+- **Infra:** Self-hosted according to the Infrastructure as code doctrine, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure...)
 
 ---
 
