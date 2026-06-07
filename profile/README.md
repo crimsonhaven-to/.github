@@ -37,6 +37,7 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 **Phase:** Building the castle   
 **ETA:** When Lumi says it’s ready (and not a commit sooner).
+***Current Expected Release to Production:*** Somewhere between 8. Juli - 22. Juli.
 
 - [x] Core backend routing
 - [x] Anime metadata scraper (~~ethically sourced~~ (Lumi doesn't talk about that ＞︿＜))
