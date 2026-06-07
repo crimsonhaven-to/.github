@@ -41,8 +41,8 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 - [x] Core backend routing
 - [x] Anime metadata scraper (~~ethically sourced~~ (Lumi doesn't talk about that ＞︿＜))
-- [ ] Video player with memory of your last episode
-- [ ] User lists (“Lumi’s Favorites”)
+- [x] Video player with memory of your last episode
+- [x] User lists (“Lumi’s Favorites”)
 - [x] Mobile-~~first~~ optimized vampire theme
 
 ---
@@ -62,13 +62,15 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 - “Unconventional” means: if a standard solution feels ugly, we rewrite it. (Lumi loves building incoherrent code!)
 - The site should work on a potato laptop — Lumi respects the broke student grind.
 - Honestly, "if it works, it works".
+- Lumi no likey big corps who take down good sites like HiAnime.
+- Besides all of that, I really enjoy building stuff and "challenging" myself.
 
 ---
 
 ## License & Legal
 
 Crimson Haven is a **fan project**.  
-We don’t host any files — we simply point to publicly available sources.  
+We don’t host any files — we simply point to publicly available sources. *and mayhaps embed them after stripping them of their ads but shhh (*ゝω･*)*
 If you own content and want it removed, reach out (or send Lumi a nice coffin). No legal warfare, please.
 
 ---
@@ -76,8 +78,9 @@ If you own content and want it removed, reach out (or send Lumi a nice coffin). 
 ## Follow the Queen
 
 - **Organization:** [@crimsonhaven-to](https://github.com/crimsonhaven-to)
-- **Instagram:** [@crimsonhaven.to](https://www.instagram.com/crimsonhaven.to/)
+- **Instagram:** [@crimsonhaven.to](https://www.instagram.com/crimsonhaven.to)
 - **TikTok:** [@crimsonhaven.to](https://www.tiktok.com/@crimsonhaven.to)
+- **Reddit:** [r/crimsonhaven](https://www.reddit.com/r/crimsonhaven)
 - **Status:** Silent until launch. Lumi hates hype without bite.
 
 > *“One day, you’ll open your browser, type my name, and find every anime you ever loved — waiting in crimson splendor.”*  
