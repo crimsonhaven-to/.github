@@ -29,7 +29,7 @@ A clean, fast, self-built platform where the blood (code) and soul (anime) flow 
 
 You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sarcastic comments in the console logs.
 
-![Lumi!](./assets/images/nobackgroundmascot.png)
+![Lumi!](/assets/images/nobackgroundmascot.png)
 
 ---
 
