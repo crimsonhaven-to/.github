@@ -36,8 +36,8 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 ## Project Status
 
 **Phase:** Building the castle   
-**ETA:** When Lumi says it’s ready (and not a commit sooner). 
-***Current Expected Release to Production:*** Somewhere between 8. Juli - 22. Juli.
+**ETA:** We're Live now! Enjoy some good, (ad-)free anime in the [crimsonhaven!](https://crimsonhaven.to)
+***Current Expected Release to Production:*** *already happened, hehe*
 
 - [x] Core backend routing
 - [x] Anime metadata scraper (~~ethically sourced~~ (Lumi doesn't talk about that ＞︿＜))
