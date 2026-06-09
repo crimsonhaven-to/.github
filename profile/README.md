@@ -9,7 +9,7 @@
 We’re not a team.  
 We’re just **a bunch of people** who love **System Engineering** and doing unconventional things.
 
-No corporate nonsense. No bloat. Just raw engineering, late-night commits, and the belief that watching anime should feel like home — a *crimson* home.
+No corporate nonsense. No bloat. Just raw engineering, late night commits, and the belief that watching anime should feel like home — a *crimson* home.
 
 When HiAnime was taken down, a void remained. This is our answer:  
 A clean, fast, self-built platform where the blood (code) and soul (anime) flow freely.
@@ -35,7 +35,7 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 ## Project Status
 
-**Phase:** Building the castle   
+**Phase:** Testing whether the castle can withstand the dark nodes!   
 **ETA:** We're Live now! Enjoy some good, (ad-)free anime in the [crimsonhaven!](https://crimsonhaven.to)
 ***Current Expected Release to Production:*** *already happened, hehe*
 
@@ -44,6 +44,10 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 - [x] Video player with memory of your last episode
 - [x] User lists (“Lumi’s Favorites”)
 - [x] Mobile-~~first~~ optimized vampire theme
+- [x] PoC Native Android App
+- [ ] Improved Watch History
+- [ ] Custom Watchlists
+- [ ] Better Source Language detection (no idea how to do this :< )
 
 ---
 
@@ -51,8 +55,8 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 - **Backend:** Python (containerized, because vampires love microservices ;P)
 - **Frontend:** ReactJS + TailwindCSS (Lumi doesn't understand it. But it works.)
-- **Database:** Now a managed, external database! 
-- **Infra:** Self-hosted according to the Infrastructure as code doctrine, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure...)
+- **Database:** HA DB Cluster
+- **Infra:** Self-hosted according to the Infrastructure as code doctrine, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure + two new clusters...)
 
 ---
 
