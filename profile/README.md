@@ -45,9 +45,13 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 - [x] User lists (“Lumi’s Favorites”)
 - [x] Mobile-~~first~~ optimized vampire theme
 - [x] PoC Native Android App
-- [ ] Improved Watch History
+- [x] Improved Watch History (even fixed the 2% bug~)
 - [ ] Custom Watchlists
-- [ ] Better Source Language detection (no idea how to do this :< )
+- [x] Better Source Language detection (for a few sources...)
+- [ ] Fix not-released episodes
+- [ ] Implement more sources (so that this page be as immortal as Lumi)
+- [x] Better Video Player
+- [x] Implement Genres
 
 ---
 
