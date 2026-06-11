@@ -14,6 +14,8 @@ No corporate nonsense. No bloat. Just raw engineering, late night commits, and t
 When HiAnime was taken down, a void remained. This is our answer:  
 A clean, fast, self-built platform where the blood (code) and soul (anime) flow freely.
 
+To make it frank: [crimsonhaven.to](https://crimsonhaven.to) is a free, no-ads anime streaming page built to my idea of "perfection". Since I enjoy watching anime, I hope to share this webpage which I've built with others who feel the same way :)
+
 ---
 
 ## Meet Lumi (Luminas) — Our Vampire Queen Mascot
@@ -52,6 +54,8 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 - [ ] Implement more sources (so that this page be as immortal as Lumi)
 - [x] Better Video Player
 - [x] Implement Genres
+- [x] Implement Anime Overview
+- [x] Implement per-episode metadata
 
 ---
 
