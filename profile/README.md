@@ -79,11 +79,20 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 ---
 
-## License & Legal
+## Disclaimer & Legal
 
-Crimson Haven is a **fan project**.  
-We don’t host any files — we simply point to publicly available sources. *and mayhaps embed them after stripping them of their ads but shhh (*ゝω･*)*
-If you own content and want it removed, reach out (or send Lumi a nice coffin). No legal warfare, please.
+Crimson Haven is a **non-commercial fan project** born out of a pure passion for System Engineering and the thrill of a technical challenge.
+
+- **No Hosting:** We do not host, store, or transmit any video files or copyrighted media on our servers. Period.
+- **No Caching:** Our system does not cache video URLs or media streams. We are as transient as a shadow.
+- **Scrapers Only:** [crimsonhaven.to](https://crimsonhaven.to) is a showcase of custom-built scraper technology that aggregates publicly available links from the open web.
+- **Just for the Tech:** This project was built because I love breaking things down and building them back up better. It’s about the code, the infrastructure, and the challenge.
+
+### Takedowns & Policy
+We have no interest in legal warfare—Lumi finds it dreadfully boring. We respect intellectual property and will comply with all valid requests:
+- **DMCA Takedowns:** We will process and comply with all legitimate DMCA-takedown requests.
+- **Cease-and-Desist:** We honor valid Cease-and-Desist orders promptly.
+- **Contact:** If you want something removed, just mail us at [service@crimsonhaven.to](mailto:service@crimsonhaven.to) instead of summoning the lawyers. We're reasonable people, and a simple email is much faster for everyone.
 
 ---
 
