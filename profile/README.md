@@ -1,6 +1,6 @@
 # crimsonhaven.to
 
-> *A built-from-scratch anime watch website — reviving the spirit of HiAnime, with a crimson twist.*
+> *A built-from-scratch, only-local browser extension framework - Making it easy for users to add their own sources. Examples might be a local jellyfin-instance, a NAS or whatever else you might find. And the joy lies in building those mechanisms yourself! *
 
 ---
 
@@ -12,9 +12,9 @@ We’re just **a bunch of people** who love **System Engineering** and doing unc
 No corporate nonsense. No bloat. Just raw engineering, late night commits, and the belief that watching anime should feel like home — a *crimson* home.
 
 When HiAnime was taken down, a void remained. This is our answer:  
-A clean, fast, self-built platform where the blood (code) and soul (anime) flow freely.
+A clean, fast, self-built framework where the blood (code) and soul (anime) flow freely—entirely within your own browser.
 
-To make it frank: [crimsonhaven.to](https://crimsonhaven.to) is a free, no-ads anime streaming page built to my idea of "perfection". Since I enjoy watching anime, I hope to share this webpage which I've built with others who feel the same way :)
+To make it frank: [crimsonhaven.to](https://crimsonhaven.to) has evolved into a free, only-local browser extension framework built to my idea of "perfection". We no longer host, ship, or provide any sources; it's a neutral tool designed for you to bring your own media. Since I enjoy watching anime, I hope to share this framework which I've built with others who feel the same way :)
 
 ---
 
@@ -24,10 +24,10 @@ To make it frank: [crimsonhaven.to](https://crimsonhaven.to) is a free, no-ads a
 
 **Lumi** (full name: *Luminas Crimsonveil*) is the immortal, cute, and slightly mischievous vampire queen who watches over Crimson Haven.
 
-- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long crimson hair with violet undertones. Always wearing a velvel cape.
+- **Looks like** — A petite girl with pale skin, deep crimson eyes, and long crimson hair with violet undertones. Always wearing a velvet cape.
 - **Personality** — Regal but playful. She’ll judge your taste in isekai, but then recommend three hidden gems. She loves moonlit code reviews and drinks `#8B0000` tea.
 - **Catchphrase** — *"Don’t worry, I only bite lag and broken subtitles."*
-- **Why a vampire queen?** — Because Crimson Haven isn’t just another streaming site. It’s *her* domain. Elegant, dark, and surprisingly warm.
+- **Why a vampire queen?** — Because frankly, I like vampires. And let's be real, who else would be a fitting ruler over "crimsonhaven" than Lumi herself?
 
 You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sarcastic comments in the console logs.
 
@@ -37,62 +37,56 @@ You’ll see Lumi hiding in UI elements, 404 pages, and occasionally leaving sar
 
 ## Project Status
 
-**Phase:** Testing whether the castle can withstand the dark nodes!   
-**ETA:** We're Live now! Enjoy some good, (ad-)free anime in the [crimsonhaven!](https://crimsonhaven.to)
-***Current Expected Release to Production:*** *already happened, hehe*
+**Phase:** Shifting to local-only extension architecture!   
+**ETA:** Extension builds coming soon. The castle is being rebuilt for total privacy and legality.
 
-- [x] Core backend routing
-- [x] Anime metadata scraper (~~ethically sourced~~ (Lumi doesn't talk about that ＞︿＜))
-- [x] Video player with memory of your last episode
-- [x] User lists (“Lumi’s Favorites”)
-- [x] Mobile-~~first~~ optimized vampire theme
-- [x] PoC Native Android App
-- [x] Improved Watch History (even fixed the 2% bug~)
+- [x] Core extension framework
+- [x] Local video player integration
+- [x] Mobile-optimized vampire theme
+- [x] Improved Watch History (local storage)
+- [ ] User-defined Source API (Add your own links, that's not my business)
 - [ ] Custom Watchlists
-- [x] Better Source Language detection (for a few sources...)
-- [ ] Fix not-released episodes
-- [ ] Implement more sources (so that this page be as immortal as Lumi)
-- [x] Better Video Player
-- [x] Implement Genres
-- [x] Implement Anime Overview
-- [x] Implement per-episode metadata
+- [x] Enhanced Metadata Scraping (Client-side only)
+- [ ] "Immortal" local source management
 
 ---
 
 ## Built With
 
-- **Backend:** Python (containerized, because vampires love microservices ;P)
-- **Frontend:** ReactJS + TailwindCSS (Lumi doesn't understand it. But it works.)
-- **Database:** HA DB Cluster
-- **Infra:** Self-hosted according to the Infrastructure as code doctrine, because “the cloud” can’t hold a queen’s secrets (unironically, Lumi forced me to build my own authoritative DNS infrastructure + two new clusters...)
+- **Extension Core:** JavaScript / TypeScript (Lumi doesn't understand it, but it's fast.)
+- **Frontend:** ReactJS + TailwindCSS (A sleek, crimson UI for your browser.)
+- **Storage:** Browser LocalStorage / IndexedDB (Your data stays in your castle.)
+- **Infra:** Decoupled from the cloud. Your browser *is* the infrastructure.
 
 ---
 
 ## Philosophy
 
-- No trackers, no crypto, no AI-written episode summaries.
-- “Unconventional” means: if a standard solution feels ugly, we rewrite it. (Lumi loves building incoherrent code!)
-- The site should work on a potato laptop — Lumi respects the broke student grind.
-- Honestly, "if it works, it works".
-- Lumi no likey big corps who take down good sites like HiAnime.
-- Besides all of that, I really enjoy building stuff and "challenging" myself.
+- **User Sovereignty:** No trackers, no crypto, and no centralized servers. Your data stays with you.
+- **Source Neutrality:** We provide the framework; you provide the content. We ship ZERO sources.
+- **Efficiency:** The tool should work on a potato laptop — Lumi respects the broke student grind.
+- **Anti-Gatekeeping:** Lumi no likey big corps who take down good sites. We build tools that can't be taken down because they live with the user.
+- **Technical Challenge:** Honestly, I just love building stuff and "challenging" myself to make the most elegant local player possible.
 
 ---
 
-## Disclaimer & Legal
+## Disclaimer
 
-Crimson Haven is a **non-commercial fan project** born out of a pure passion for System Engineering and the thrill of a technical challenge.
+This tool is a neutral, general-purpose video watching framework. It does not contain, embed, or pre‑load any copyrighted content, nor does it provide any default sources, playlists, or streams.
 
-- **No Hosting:** We do not host, store, or transmit any video files or copyrighted media on our servers. Period.
-- **No Caching:** Our system does not cache video URLs or media streams. We are as transient as a shadow.
-- **Scrapers Only:** [crimsonhaven.to](https://crimsonhaven.to) is a showcase of custom-built scraper technology that aggregates publicly available links from the open web.
-- **Just for the Tech:** This project was built because I love breaking things down and building them back up better. It’s about the code, the infrastructure, and the challenge.
+The framework is designed solely to allow users to add their own sources — for example, legally acquired streams, public domain content, or content for which they have explicit permission to access.
 
-### Takedowns & Policy
-We have no interest in legal warfare—Lumi finds it dreadfully boring. We respect intellectual property and will comply with all valid requests:
-- **DMCA Takedowns:** We will process and comply with all legitimate DMCA-takedown requests.
-- **Cease-and-Desist:** We honor valid Cease-and-Desist orders promptly.
-- **Contact:** If you want something removed, just mail us at [service@crimsonhaven.to](mailto:service@crimsonhaven.to) instead of summoning the lawyers. We're reasonable people, and a simple email is much faster for everyone.
+The developer does not condone, encourage, or facilitate any form of copyright infringement, including piracy. The user is solely responsible for:
+
+1. **Ensuring** that any source they add to the framework is legally accessible in their jurisdiction.
+2. **Complying** with all applicable copyright laws, including but not limited to the Swiss Copyright Act (URG).
+3. **Obtaining** any necessary permissions from rights holders before accessing or playing any content.
+
+Under Swiss law, the private use exception (Art. 19 URG) may permit individuals to access certain content for personal, non‑commercial purposes. However, this does not shift any liability to the developer. The developer is not responsible for how the tool is used, nor for any legal consequences arising from the user’s choice of sources.
+
+If you add sources that you do not have the legal right to access, you alone bear full legal responsibility. This framework is provided “as is” for educational and technical demonstration purposes.
+
+By using this tool, you acknowledge that you have read this disclaimer and agree that the developer shall not be held liable for any misuse or unlawful activity.
 
 ---
 
@@ -102,7 +96,7 @@ We have no interest in legal warfare—Lumi finds it dreadfully boring. We respe
 - **Instagram:** [@crimsonhaven.to](https://www.instagram.com/crimsonhaven.to)
 - **TikTok:** [@crimsonhaven.to](https://www.tiktok.com/@crimsonhaven.to)
 - **Reddit:** [r/crimsonhaven](https://www.reddit.com/r/crimsonhaven)
-- **Status:** Silent until launch. Lumi hates hype without bite.
+- **Status:** Rebuilding in the shadows.
 
-> *“One day, you’ll open your browser, type my name, and find every anime you ever loved — waiting in crimson splendor.”*  
+> *“One day, you’ll open your browser, and your own private haven will be waiting — in crimson splendor.”*  
 > — Luminas
