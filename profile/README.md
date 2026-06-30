@@ -7,19 +7,19 @@
 
 ## 🌹 The Sanctuary
 
-We are not a corporation. We are a **System Engineer** (who might be a bit too arrogant :3) and architects of the unconventional. 
+We are not a corporation. We are a **System Engineer** (who might be a touch too arrogant :3) and architects of the unconventional.
 
-**Crimson Haven** has evolved. What began as a "legally-dubios, sketchy" webpage and then became an extension has returned to its origins, but without the sketchyness. It has returned into a full-scale, neutral watching framework for self-hosters with a stateless backend (which is pretty much horizontally scalable as much as your hardware can handle). Think of it as your own private sanctuary, something like Jellyfin, but forged in the fires of crimson aesthetics and raw engineering.
+**Crimson Haven** is an **expansive, performance-oriented streaming framework** for self-hosters — a metadata brain wrapped around a stateless, horizontally-scalable backend (scale it as far as your hardware dares). Think of it as your own private sanctuary, something like Jellyfin, but forged in the fires of crimson aesthetics and raw engineering.
 
-We provide the throne; you provide the crown. Our tools are designed to bridge the gap between your personal media archives (NAS, Jellyfin, or local relics) and a seamless, high-fidelity viewing experience. No bloat, no trackers, just the pure essence of your collection. Since this originally began as an anime-centered project, our metadata engine is specifically laid out for anime. With per-season metadata, fallback to TMDBs metadata and (now) support for normal TV shows, this is the developer's "perfection" given form.
+We provide the throne; you provide the crown. Our tools bridge the gap between your personal media archives (NAS, Jellyfin, or local relics) and a seamless, high-fidelity viewing experience. No bloat, no trackers, just the pure essence of *your* collection. Since this began as an anime-centered project, our metadata engine is laid out for anime first: it natively maps **TMDB ↔ AniList** with per-season metadata, graceful TMDB fallback, and (now) full support for ordinary TV shows and movies. This is the developer's "perfection" given form.
 
 ---
 
 ## ❓ Why?
 
-Why did I create this? Well, that answer is quite interesting, truly. I've always been a fan of projects like P-Stream (sudo-flix, movie-web or whatever other name it might have). Before starting this project, I hadn't built anything on this scale for years. But funnily enough, this project has brought me more joy to develop, test, and "mend" into my definition of perfection than any other project I worked on so far. 
+Why did I forge this? An interesting tale, truly. I've always admired projects like P-Stream (sudo-flix, movie-web, or whatever name it wears this week). Before this, I hadn't built anything on this scale in years — yet no project has brought me more joy to develop, test, and "mend" into my definition of perfection.
 
-The technical challenge, getting to use my own product and, if something annoyed me, simply being able to change it, truly was (and still is) a whole lot of fun. Therefore, I wish that more people get to use this, build upon this project and expand it even further, perhaps bringing ideas which I couldn't have even thought about so far. Since my private version of this project is... well... *not suitable for sharing for certain reasons*, I stripped out all the *problematic* code. 
+The technical challenge, getting to *use* my own creation, and being able to change anything that annoyed me on a whim — that was (and still is) a whole lot of fun. So I wish for more people to use it, build upon it, and expand it further, perhaps with ideas I'd never have dreamt of. To that end the entire framework is public and open-source: a neutral, capable vessel that ships with **no sources of its own** — what you (lawfully) pour into it is yours to decide.
 
 ---
 
@@ -42,19 +42,30 @@ You’ll find Lumi haunting our UI elements, guiding lost souls in the forgotten
 
 ## 🏰 The Crimson Ecosystem
 
-The sanctuary is built upon two mighty pillars, both open to the public for those brave enough to summon them:
+The sanctuary is built from **five small halls** that work together — all public and open-source, for those brave enough to summon them. You can raise a working instance with just the first three.
 
-### 🩸 [Crimson Backend](https://github.com/crimsonhaven-to/crimson-backend-public)
-The heart of the Haven. A high-performance FastAPI engine that manages your personal media collection with elegance.
-- **Mapping Intelligence:** Bridges TMDB and AniList for complex multi-season clusters.
-- **Jellyfin Integration:** Seamlessly syncs with your existing home sanctuary.
-- **NDJSON Streaming:** Pushes metadata and stream results to the client the instant they are found.
+### 🩸 [crimson-backend](https://github.com/crimsonhaven-to/crimson-backend) — the brain
+A high-performance FastAPI engine that maps your metadata and orchestrates everything.
+- **Mapping Intelligence:** Bridges TMDB ↔ AniList for complex multi-season clusters.
+- **Operator-owned media:** Serves *your own* Local / Cache / Jellyfin sources — and scrapes nothing third-party.
+- **NDJSON Streaming:** Pushes metadata and stream results to the client the instant they're found.
 
-### 🍷 [Crimson Client](https://github.com/crimsonhaven-to/crimson-client-public)
-The veil through which you view your domain. A React-based interface refined for speed and visual impact.
-- **Cryptographic Identity:** Secure, mnemonic-based (12-word seed) account system. No passwords, just pure soul-binding. (If authentication is enabled, it is still email and password- for now.)
-- **Neon Crimson Theme:** A sleek, performance-optimized UI that feels like home—a *crimson* home.
-- **The Royal Archives:** Comprehensive tracking for your Favorites and History, stored within your own castle.
+### 🍷 [crimson-client](https://github.com/crimsonhaven-to/crimson-client) — the face
+A React 19 interface refined for speed and visual impact.
+- **Cryptographic Identity:** Mnemonic-based (12-word seed) accounts — no passwords, just soul-binding — alongside optional invite-gated email + password.
+- **Neon Crimson Theme:** A sleek, performance-optimized UI that feels like a *crimson* home.
+- **The Royal Archives:** Favorites and History tracking, stored within your own castle.
+
+### 🌐 [crimson-proxy](https://github.com/crimsonhaven-to/crimson-proxy) — the edge
+A signed, HLS-aware CORS relay on free edge hosting (Netlify / Cloudflare) that carries heavy video bytes so your own server never has to.
+
+### 🦇 [crimson-extension](https://github.com/crimsonhaven-to/crimson-extension) — the familiar
+An optional, tiny browser companion that unlocks the smoothest, most direct playback (CDN → viewer).
+
+### 📖 [crimson-docs](https://github.com/crimsonhaven-to/crimson-docs) — the grimoire
+The full self-hosting documentation — Lumi will guide you personally through every hall.
+
+> **And your sources — the secret.** The public stack ships with **no** streaming providers. The actual sources live in *your own private repository*, bundled in at build time. That's the whole design: the public halls stay shareable; the part that finds streams stays yours.
 
 ---
 
@@ -71,11 +82,11 @@ Our artifacts are forged using the finest mortal and immortal technologies:
 
 ## ⚖️ The Queen's Decree (Disclaimer)
 
-*Hearken, mortals, to the laws of the realm. This framework is a neutral vessel, a hollowed sarcophagus waiting to be filled with your own chosen manifestations. It does not contain, embed, or pre-load any copyrighted content, nor does it provide any default sources, playlists, or streams.*
+*Hearken, mortals, to the laws of the realm. Crimson Haven is an expansive, performance-oriented **streaming framework** and metadata engine — a neutral vessel, a hollowed sarcophagus waiting to be filled with your own chosen manifestations. We do **not** host, store, embed, ship, or pre-load any sources, playlists, or streams, and we do **not** condone piracy.*
 
-*The framework is designed solely to allow users to add their own sources—for example, legally acquired streams, public domain content, or content for which they have explicit permission to access, such as a personal Jellyfin-instance or a NAS-storage.*
+*The framework exists solely to let you add your **own** sources — legally acquired streams, public-domain content, or media you have explicit permission to access, such as a personal Jellyfin instance or a NAS.*
 
-*The developer does not condone, encourage, or facilitate any form of copyright infringement. You, the user, are solely responsible for ensuring your sources are legal and complying with all applicable laws (including the Swiss URG).*
+*We do not condone, encourage, or facilitate any form of copyright infringement. You, the mortal, are solely responsible for ensuring your sources are lawful and for complying with all applicable laws (including the Swiss URG).*
 
 ---
 
