@@ -1,5 +1,14 @@
 # crimsonhaven.to
 
+# **!IMPORTANT!**
+
+GitHub just recently took down the main developer's GitHub account. It likely is just a matter of time before this org also gets taken down. Therefore, check out the new repos:
+[https://gitlab.ramon.moe/crimsonhaven-to](https://gitlab.ramon.moe/crimsonhaven-to)
+Development will only continue there!
+As of right now, we are still re-organizing everything, rebuilding CI/CD pipelines etc., but in due time everything will go back to normal.
+(hopefully)
+
+
 > *"Welcome to your digital domain, little mortal. Here, the network flows through blood-red links, and every manifestation is catalogued for your eternal amusement."*
 > — **Luminas, the Vampire Queen**
 
