@@ -4,7 +4,7 @@
 
 GitHub just recently took down the main developer's GitHub account. It likely is just a matter of time before this org also gets taken down. Therefore, check out the new repos:
 [https://gitlab.ramon.moe/crimsonhaven-to](https://gitlab.ramon.moe/crimsonhaven-to)
-Development will only continue there!
+Development will only continue there! The code here on GitHub is stale and not up-to-date anymore!
 As of right now, we are still re-organizing everything, rebuilding CI/CD pipelines etc., but in due time everything will go back to normal.
 (hopefully)
 
@@ -53,25 +53,25 @@ You’ll find Lumi haunting our UI elements, guiding lost souls in the forgotten
 
 The sanctuary is built from **five small halls** that work together — all public and open-source, for those brave enough to summon them. You can raise a working instance with just the first three.
 
-### 🩸 [crimson-backend](https://github.com/crimsonhaven-to/crimson-backend) — the brain
+### 🩸 [crimson-backend](https://gitlab.ramon.moe/crimsonhaven-to/crimson-backend) — the brain
 A high-performance FastAPI engine that maps your metadata and orchestrates everything.
 - **Mapping Intelligence:** Bridges TMDB ↔ AniList for complex multi-season clusters.
 - **Operator-owned media:** Serves *your own* Local / Cache / Jellyfin sources — and scrapes nothing third-party.
 - **NDJSON Streaming:** Pushes metadata and stream results to the client the instant they're found.
 
-### 🍷 [crimson-client](https://github.com/crimsonhaven-to/crimson-client) — the face
+### 🍷 [crimson-client](https://gitlab.ramon.moe/crimsonhaven-to/crimson-client) — the face
 A React 19 interface refined for speed and visual impact.
 - **Cryptographic Identity:** Mnemonic-based (12-word seed) accounts — no passwords, just soul-binding — alongside optional invite-gated email + password.
 - **Neon Crimson Theme:** A sleek, performance-optimized UI that feels like a *crimson* home.
 - **The Royal Archives:** Favorites and History tracking, stored within your own castle.
 
-### 🌐 [crimson-proxy](https://github.com/crimsonhaven-to/crimson-proxy) — the edge
+### 🌐 [crimson-proxy](https://gitlab.ramon.moe/crimsonhaven-to/crimson-proxy) — the edge
 A signed, HLS-aware CORS relay on free edge hosting (Netlify / Cloudflare) that carries heavy video bytes so your own server never has to.
 
-### 🦇 [crimson-extension](https://github.com/crimsonhaven-to/crimson-extension) — the familiar
+### 🦇 [crimson-extension](https://gitlab.ramon.moe/crimsonhaven-to/crimson-extension) — the familiar
 An optional, tiny browser companion that unlocks the smoothest, most direct playback (CDN → viewer).
 
-### 📖 [crimson-docs](https://github.com/crimsonhaven-to/crimson-docs) — the grimoire
+### 📖 [crimson-docs](https://gitlab.ramon.moe/crimsonhaven-to/crimson-docs) — the grimoire
 The full self-hosting documentation — Lumi will guide you personally through every hall.
 
 > **And your sources — the secret.** The public stack ships with **no** streaming providers. The actual sources live in *your own private repository*, bundled in at build time. That's the whole design: the public halls stay shareable; the part that finds streams stays yours.
